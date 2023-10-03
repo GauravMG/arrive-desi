@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Colleges";
+$pageTitle = "PGs";
 ?>
 <!doctype html>
 <html lang="en">
@@ -21,12 +21,12 @@ $pageTitle = "Colleges";
           <div class="app-page-title">
             <div class="page-title-wrapper">
               <div class="page-title-heading">
-                <div>Colleges</div>
+                <div>PGs</div>
               </div>
               <div class="page-title-actions">
                 <div class="d-inline-block dropdown">
                   <button type="button" class="btn-shadow btn btn-info" onclick="onClickAdd()">
-                    Add College
+                    Add PG
                   </button>
                 </div>
               </div>
@@ -38,7 +38,8 @@ $pageTitle = "Colleges";
                 <thead>
                   <tr>
                     <th>S. No.</th>
-                    <th>College Name</th>
+                    <th>PG Name</th>
+                    <th>Manage Colleges</th>
                     <th>Action</th>
                   </tr>
                 </thead>
@@ -46,7 +47,8 @@ $pageTitle = "Colleges";
                 <tfoot>
                   <tr>
                     <th>S. No.</th>
-                    <th>College Name</th>
+                    <th>PG Name</th>
+                    <th>Manage Colleges</th>
                     <th>Action</th>
                   </tr>
                 </tfoot>
@@ -62,12 +64,12 @@ $pageTitle = "Colleges";
 
   <script>
     $(document).ready(function() {
-      fetchColleges()
+      fetchPGs()
     })
 
-    function fetchColleges() {
+    function fetchPGs() {
       $.ajax({
-        url: "<?php echo base_url(); ?>admin/fetchColleges",
+        url: "<?php echo base_url(); ?>admin/fetchPGs",
         method: "POST",
         data: {},
         success: function(response) {
@@ -91,7 +93,14 @@ $pageTitle = "Colleges";
                 <td>${data[i].name}</td>
                 <td>
                   <div class="list-action-container">
-                    <a onclick="onClickEdit(${data[i].collegeId})">
+                    <a onclick="onClickManageColleges(${data[i].pgId})">
+                      <i class="fa fa-eye"></i>
+                    </a>
+                  </div>
+                </td>
+                <td>
+                  <div class="list-action-container">
+                    <a onclick="onClickEdit(${data[i].pgId})">
                       <i class="fa fa-edit"></i>
                     </a>
                   </div>
@@ -110,11 +119,15 @@ $pageTitle = "Colleges";
     }
 
     function onClickAdd() {
-      window.location.href = `<?php echo base_url(); ?>admin/college/add`
+      window.location.href = `<?php echo base_url(); ?>admin/pg/add`
     }
 
-    function onClickEdit(collegeId) {
-      window.location.href = `<?php echo base_url(); ?>admin/college/edit/${collegeId}`
+    function onClickEdit(pgId) {
+      window.location.href = `<?php echo base_url(); ?>admin/pg/edit/${pgId}`
+    }
+
+    function onClickManageColleges(pgId) {
+      window.location.href = `<?php echo base_url(); ?>admin/pg/manage-colleges/${pgId}`
     }
   </script>
 

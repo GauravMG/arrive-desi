@@ -97,7 +97,7 @@ define("current_datetime", date("Y-m-d H:i:s"));
 define("assets", "http://localhost/arrive-desi/assets/");
 define("assets_website", "http://localhost/arrive-desi/assets/website/");
 define("assets_admin", "http://localhost/arrive-desi/assets/admin/");
-define("uploads_image", "uploads/");
+define("uploads", "uploads/");
 /* //assets directory */
 
 // define("api_path", "https://vsr.ca/API/");

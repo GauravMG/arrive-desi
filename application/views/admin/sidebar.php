@@ -38,6 +38,11 @@
             <i class="metismenu-icon pe-7s-graph2"></i>Colleges
           </a>
         </li>
+        <li>
+          <a href="<?php echo base_url(); ?>admin/pgs">
+            <i class="metismenu-icon pe-7s-graph2"></i>PGs
+          </a>
+        </li>
       </ul>
     </div>
   </div>

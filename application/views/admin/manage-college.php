@@ -8,8 +8,6 @@ if (isset($data["collegeId"])) {
 <!doctype html>
 <html lang="en">
 
-<!-- Mirrored from demo.dashboardpack.com/architectui-html-pro/tables-data-tables.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 30 Sep 2023 06:17:46 GMT -->
-
 <head>
   <?php include "head-bundle.php"; ?>
 
@@ -36,7 +34,7 @@ if (isset($data["collegeId"])) {
             <div class="card-body">
               <form id="form" class>
                 <div class="form-row">
-                  <div class="col-md-6">
+                  <div class="col-md-12">
                     <div class="position-relative form-group">
                       <label for="name" class>College Name</label>
                       <input name="name" id="name" value="<?php echo $data["name"] ?? ""; ?>" placeholder="" type="text" class="form-control" required />
@@ -45,7 +43,7 @@ if (isset($data["collegeId"])) {
 
                 </div>
                 
-                <button class="mt-2 btn btn-primary">Create</button>
+                <button class="mt-2 btn btn-primary">Save</button>
 
               </form>
             </div>
@@ -70,12 +68,13 @@ if (isset($data["collegeId"])) {
         }
 
         const collegeId = '<?php echo $data["collegeId"] ?? ""; ?>';
-        const url = collegeId !== "" ? "<?php echo base_url(); ?>admin/updateCollege" : "<?php echo base_url(); ?>admin/createCollege"
-
+        let url = "<?php echo base_url(); ?>admin/createCollege"
         let data = {
           name
         }
+
         if (collegeId.trim() !== "") {
+          url = "<?php echo base_url(); ?>admin/updateCollege"
           data = {
             ...data,
             collegeId
