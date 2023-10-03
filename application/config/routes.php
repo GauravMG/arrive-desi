@@ -50,10 +50,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 
-/* web routes */
+/* start web routes */
 $route['login'] = "web/login";
 $route['logout'] = "web/logout";
-/* //web routes */
+/* end web routes */
+
+/* start admin routes */
+$route['admin/college/add'] = "admin/manageCollege";
+$route['admin/college/edit/(:any)'] = "admin/manageCollege/$1";
+/* end admin routes */
 
 $route['default_controller'] = 'web';
 $route['404_override'] = '';

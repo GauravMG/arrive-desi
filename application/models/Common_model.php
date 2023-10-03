@@ -13,7 +13,7 @@ class Common_model extends CI_Model
         $this->db->where($data);
         $result = $this->db->get();
         if($result->num_rows() >= 1)
-            return $result->result();
+            return json_decode(json_encode($result->result()), true);
         else
             return false;
     }
@@ -40,7 +40,7 @@ class Common_model extends CI_Model
 
         $result = $this->db->get();
         if($result->num_rows() >= 1) {
-            return $result->result();
+            return json_decode(json_encode($result->result()), true);
         }
         else {
             return false;
@@ -57,7 +57,7 @@ class Common_model extends CI_Model
         $this->db->limit($limit, $offset);
         $result = $this->db->get();
         if($result->num_rows() > 0)
-            return $result->result();
+            return json_decode(json_encode($result->result()), true);
         else
             return false;
     }
@@ -73,7 +73,7 @@ class Common_model extends CI_Model
         $this->db->limit($limit, $offset);
         $result = $this->db->get();
         if($result->num_rows() > 0)
-            return $result->result();
+            return json_decode(json_encode($result->result()), true);
         else
             return false;
     }
@@ -102,37 +102,5 @@ class Common_model extends CI_Model
             return true;
         else
             return false;
-    }
-
-    function registerUserDB($table_name, $data)
-    {
-        $sql = $this->db->select('id')->from($table_name)->where('email', $data['email'])->get();
-        if($sql->num_rows() > 0)
-            return "This Email already registered, please login to continue or use different email to continue creating a new account";
-        else
-        {
-            if($this->db->insert($table_name, $data))
-                return $this->db->insert_id();
-            else
-                return false;
-        }
-    }
-
-    function fetchUserDashboardCountAll($table_name, $user_id)
-    {
-        $query = $this->db->query("SELECT COUNT(id) AS total_count FROM $table_name WHERE user_id=$user_id");
-        return $query->result();
-    }
-
-    function fetchUserDashboardCountAllJoin($table_name_1, $table_name_2, $join_column, $user_id)
-    {
-        $query = $this->db->query("SELECT COUNT($table_name_1.id) AS total_count FROM $table_name_1 JOIN $table_name_2 ON $table_name_2.id=$table_name_1.$join_column WHERE $table_name_2.user_id=$user_id");
-        return $query->result();
-    }
-
-    function fetchUserDashboardCountActive($table_name, $user_id)
-    {
-        $query = $this->db->query("SELECT COUNT(id) AS total_count FROM $table_name WHERE user_id=$user_id AND `status`=1");
-        return $query->result();
     }
 }
