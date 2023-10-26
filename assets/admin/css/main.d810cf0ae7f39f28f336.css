@@ -88,7 +88,7 @@ ul.fancytree-container li.fancytree-lastsib {
 }
 
 ul.fancytree-connectors.fancytree-container li {
-    background-image: url(http://localhost/arrive-desi/assets/admin/images/vline.gif);
+    background-image: url(https://ad.nishantsinghal.com/assets/admin/images/vline.gif);
     background-position: 0 0
 }
 
@@ -113,7 +113,7 @@ span.fancytree-drag-helper-img,
     display: inline-block;
     vertical-align: top;
     background-repeat: no-repeat;
-    background-image: url(http://localhost/arrive-desi/assets/admin/images/icons.gif);
+    background-image: url(https://ad.nishantsinghal.com/assets/admin/images/icons.gif);
     background-position: 0 0
 }
 
@@ -153,7 +153,7 @@ span.fancytree-expander {
 
 .fancytree-connectors .fancytree-exp-n span.fancytree-expander,
 .fancytree-connectors .fancytree-exp-nl span.fancytree-expander {
-    background-image: url(http://localhost/arrive-desi/assets/admin/images/icons.gif);
+    background-image: url(https://ad.nishantsinghal.com/assets/admin/images/icons.gif);
     margin-top: 0
 }
 
@@ -376,7 +376,7 @@ span.fancytree-icon {
 .fancytree-statusnode-loading span.fancytree-icon,
 .fancytree-statusnode-loading span.fancytree-icon:hover,
 span.fancytree-icon.fancytree-icon-loading {
-    background-image: url(http://localhost/arrive-desi/assets/admin/images/loading.gif);
+    background-image: url(https://ad.nishantsinghal.com/assets/admin/images/loading.gif);
     background-position: 0 0
 }
 
@@ -488,7 +488,7 @@ span.fancytree-drag-source.fancytree-drag-remove {
 .fancytree-container.fancytree-rtl span.fancytree-expander,
 .fancytree-container.fancytree-rtl span.fancytree-icon,
 .fancytree-container.fancytree-rtl span.fancytree-drag-helper-img {
-    background-image: url(http://localhost/arrive-desi/assets/admin/images/icons-rtl.gif)
+    background-image: url(https://ad.nishantsinghal.com/assets/admin/images/icons-rtl.gif)
 }
 
 .fancytree-container.fancytree-rtl .fancytree-exp-n span.fancytree-expander,
@@ -498,7 +498,7 @@ span.fancytree-drag-source.fancytree-drag-remove {
 
 .fancytree-container.fancytree-rtl.fancytree-connectors .fancytree-exp-n span.fancytree-expander,
 .fancytree-container.fancytree-rtl.fancytree-connectors .fancytree-exp-nl span.fancytree-expander {
-    background-image: url(http://localhost/arrive-desi/assets/admin/images/icons-rtl.gif)
+    background-image: url(https://ad.nishantsinghal.com/assets/admin/images/icons-rtl.gif)
 }
 
 ul.fancytree-container.fancytree-rtl ul {
@@ -507,7 +507,7 @@ ul.fancytree-container.fancytree-rtl ul {
 
 ul.fancytree-container.fancytree-rtl.fancytree-connectors li {
     background-position: right 0;
-    background-image: url(http://localhost/arrive-desi/assets/admin/images/vline-rtl.gif)
+    background-image: url(https://ad.nishantsinghal.com/assets/admin/images/vline-rtl.gif)
 }
 
 ul.fancytree-container.fancytree-rtl li.fancytree-lastsib,
@@ -516,7 +516,7 @@ ul.fancytree-container.fancytree-rtl.fancytree-no-connector>li {
 }
 
 #fancytree-drop-marker.fancytree-rtl {
-    background-image: url(http://localhost/arrive-desi/assets/admin/images/icons-rtl.gif)
+    background-image: url(https://ad.nishantsinghal.com/assets/admin/images/icons-rtl.gif)
 }
 
 table.fancytree-ext-table {
@@ -11448,7 +11448,7 @@ button,
 .app-header__logo .logo-src {
     height: 23px;
     width: 97px;
-    background: url(http://localhost/arrive-desi/assets/admin/images/logo-inverse.png)
+    background: url(https://ad.nishantsinghal.com/assets/admin/images/logo-inverse.png)
 }
 
 .app-header__menu,
@@ -11686,7 +11686,7 @@ button,
 }
 
 .app-header.header-text-light .app-header__logo .logo-src {
-    background: url(http://localhost/arrive-desi/assets/admin/images/logo.png)
+    background: url(https://ad.nishantsinghal.com/assets/admin/images/logo.png)
 }
 
 .app-header.header-text-light .app-header__mobile-menu .hamburger-inner,
@@ -11784,7 +11784,7 @@ button,
 }
 
 .app-header.header-text-dark .app-header__logo .logo-src {
-    background: url(http://localhost/arrive-desi/assets/admin/images/logo-inverse.png)
+    background: url(https://ad.nishantsinghal.com/assets/admin/images/logo-inverse.png)
 }
 
 .app-sidebar {
@@ -12063,7 +12063,7 @@ button,
 }
 
 .app-sidebar.sidebar-text-light .app-header__logo .logo-src {
-    background: url(http://localhost/arrive-desi/assets/admin/images/logo.png)
+    background: url(https://ad.nishantsinghal.com/assets/admin/images/logo.png)
 }
 
 .app-sidebar.sidebar-text-light .app-header__logo .hamburger-inner,
@@ -21416,13 +21416,13 @@ legend {
 .app-logo {
     height: 23px;
     width: 97px;
-    background: url(http://localhost/arrive-desi/assets/admin/images/logo-inverse.png)
+    background: url(https://ad.nishantsinghal.com/assets/admin/images/logo-inverse.png)
 }
 
 .app-logo-inverse {
     height: 23px;
     width: 97px;
-    background: url(http://localhost/arrive-desi/assets/admin/images/logo.png)
+    background: url(https://ad.nishantsinghal.com/assets/admin/images/logo.png)
 }
 
 .app-login-box .app-logo {
@@ -21760,8 +21760,8 @@ legend {
     font-style: normal;
     font-weight: 900;
     font-display: block;
-    src: url(http://localhost/arrive-desi/assets/admin/fonts/fa-solid-900.eot);
-    src: url(http://localhost/arrive-desi/assets/admin/fonts/fa-solid-900d41d.eot?#iefix) format("embedded-opentype"), url(http://localhost/arrive-desi/assets/admin/fonts/fa-solid-900.woff2) format("woff2"), url(http://localhost/arrive-desi/assets/admin/fonts/fa-solid-900.woff) format("woff"), url(http://localhost/arrive-desi/assets/admin/fonts/fa-solid-900.ttf) format("truetype"), url(http://localhost/arrive-desi/assets/admin/fonts/fa-solid-900.svg#fontawesome) format("svg")
+    src: url(https://ad.nishantsinghal.com/assets/admin/fonts/fa-solid-900.eot);
+    src: url(https://ad.nishantsinghal.com/assets/admin/fonts/fa-solid-900d41d.eot?#iefix) format("embedded-opentype"), url(https://ad.nishantsinghal.com/assets/admin/fonts/fa-solid-900.woff2) format("woff2"), url(https://ad.nishantsinghal.com/assets/admin/fonts/fa-solid-900.woff) format("woff"), url(https://ad.nishantsinghal.com/assets/admin/fonts/fa-solid-900.ttf) format("truetype"), url(https://ad.nishantsinghal.com/assets/admin/fonts/fa-solid-900.svg#fontawesome) format("svg")
 }
 
 .fa,
@@ -27757,8 +27757,8 @@ legend {
 
 @font-face {
     font-family: ionicons;
-    src: url(http://localhost/arrive-desi/assets/admin/fonts/ionicons.eot);
-    src: url(http://localhost/arrive-desi/assets/admin/fonts/ionicons.eot#iefix) format("embedded-opentype"), url(http://localhost/arrive-desi/assets/admin/fonts/ionicons.ttf) format("truetype"), url(http://localhost/arrive-desi/assets/admin/fonts/ionicons.woff) format("woff"), url(http://localhost/arrive-desi/assets/admin/fonts/ionicons.svg#Ionicons) format("svg");
+    src: url(https://ad.nishantsinghal.com/assets/admin/fonts/ionicons.eot);
+    src: url(https://ad.nishantsinghal.com/assets/admin/fonts/ionicons.eot#iefix) format("embedded-opentype"), url(https://ad.nishantsinghal.com/assets/admin/fonts/ionicons.ttf) format("truetype"), url(https://ad.nishantsinghal.com/assets/admin/fonts/ionicons.woff) format("woff"), url(https://ad.nishantsinghal.com/assets/admin/fonts/ionicons.svg#Ionicons) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -31462,1023 +31462,1023 @@ legend {
 }
 
 .AD {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/AD.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/AD.svg) no-repeat
 }
 
 .AE {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/AE.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/AE.svg) no-repeat
 }
 
 .AF {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/AF.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/AF.svg) no-repeat
 }
 
 .AG {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/AG.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/AG.svg) no-repeat
 }
 
 .AI {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/AI.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/AI.svg) no-repeat
 }
 
 .AL {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/AL.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/AL.svg) no-repeat
 }
 
 .AM {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/AM.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/AM.svg) no-repeat
 }
 
 .AO {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/AO.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/AO.svg) no-repeat
 }
 
 .AR {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/AR.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/AR.svg) no-repeat
 }
 
 .AS {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/AS.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/AS.svg) no-repeat
 }
 
 .AT {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/AT.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/AT.svg) no-repeat
 }
 
 .AU {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/AU.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/AU.svg) no-repeat
 }
 
 .AW {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/AW.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/AW.svg) no-repeat
 }
 
 .AX {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/AX.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/AX.svg) no-repeat
 }
 
 .AZ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/AZ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/AZ.svg) no-repeat
 }
 
 .BA {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BA.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BA.svg) no-repeat
 }
 
 .BB {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BB.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BB.svg) no-repeat
 }
 
 .BD {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BD.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BD.svg) no-repeat
 }
 
 .BE {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BE.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BE.svg) no-repeat
 }
 
 .BF {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BF.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BF.svg) no-repeat
 }
 
 .BG {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BG.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BG.svg) no-repeat
 }
 
 .BH {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BH.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BH.svg) no-repeat
 }
 
 .BI {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BI.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BI.svg) no-repeat
 }
 
 .BJ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BJ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BJ.svg) no-repeat
 }
 
 .BL {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BL.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BL.svg) no-repeat
 }
 
 .BM {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BM.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BM.svg) no-repeat
 }
 
 .BN {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BN.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BN.svg) no-repeat
 }
 
 .BO {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BO.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BO.svg) no-repeat
 }
 
 .BR {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BR.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BR.svg) no-repeat
 }
 
 .BS {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BS.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BS.svg) no-repeat
 }
 
 .BT {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BT.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BT.svg) no-repeat
 }
 
 .BV {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BV.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BV.svg) no-repeat
 }
 
 .BW {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BW.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BW.svg) no-repeat
 }
 
 .BY {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BY.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BY.svg) no-repeat
 }
 
 .BZ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/BZ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/BZ.svg) no-repeat
 }
 
 .CA {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CA.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CA.svg) no-repeat
 }
 
 .CC {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CC.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CC.svg) no-repeat
 }
 
 .CD {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CD.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CD.svg) no-repeat
 }
 
 .CF {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CF.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CF.svg) no-repeat
 }
 
 .CG {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CG.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CG.svg) no-repeat
 }
 
 .CH {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CH.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CH.svg) no-repeat
 }
 
 .CI {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CI.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CI.svg) no-repeat
 }
 
 .CK {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CK.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CK.svg) no-repeat
 }
 
 .CL {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CL.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CL.svg) no-repeat
 }
 
 .CM {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CM.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CM.svg) no-repeat
 }
 
 .CN {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CN.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CN.svg) no-repeat
 }
 
 .CO {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CO.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CO.svg) no-repeat
 }
 
 .CR {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CR.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CR.svg) no-repeat
 }
 
 .CU {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CU.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CU.svg) no-repeat
 }
 
 .CV {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CV.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CV.svg) no-repeat
 }
 
 .CW {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CW.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CW.svg) no-repeat
 }
 
 .CX {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CX.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CX.svg) no-repeat
 }
 
 .CY {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CY.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CY.svg) no-repeat
 }
 
 .CZ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/CZ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/CZ.svg) no-repeat
 }
 
 .DE {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/DE.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/DE.svg) no-repeat
 }
 
 .DJ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/DJ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/DJ.svg) no-repeat
 }
 
 .DK {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/DK.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/DK.svg) no-repeat
 }
 
 .DM {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/DM.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/DM.svg) no-repeat
 }
 
 .DO {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/DO.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/DO.svg) no-repeat
 }
 
 .DZ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/DZ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/DZ.svg) no-repeat
 }
 
 .EC {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/EC.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/EC.svg) no-repeat
 }
 
 .EE {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/EE.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/EE.svg) no-repeat
 }
 
 .EG {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/EG.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/EG.svg) no-repeat
 }
 
 .ER {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/ER.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/ER.svg) no-repeat
 }
 
 .ES {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/ES.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/ES.svg) no-repeat
 }
 
 .ET {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/ET.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/ET.svg) no-repeat
 }
 
 .EU {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/EU.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/EU.svg) no-repeat
 }
 
 .FI {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/FI.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/FI.svg) no-repeat
 }
 
 .FJ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/FJ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/FJ.svg) no-repeat
 }
 
 .FK {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/FK.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/FK.svg) no-repeat
 }
 
 .FM {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/FM.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/FM.svg) no-repeat
 }
 
 .FO {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/FO.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/FO.svg) no-repeat
 }
 
 .FR {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/FR.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/FR.svg) no-repeat
 }
 
 .GA {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GA.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GA.svg) no-repeat
 }
 
 .GB-ENG {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GB-ENG.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GB-ENG.svg) no-repeat
 }
 
 .GB-NIR {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GB-NIR.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GB-NIR.svg) no-repeat
 }
 
 .GB-SCT {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GB-SCT.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GB-SCT.svg) no-repeat
 }
 
 .GB-WLS {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GB-WLS.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GB-WLS.svg) no-repeat
 }
 
 .GB-ZET {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GB-ZET.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GB-ZET.svg) no-repeat
 }
 
 .GB {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GB.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GB.svg) no-repeat
 }
 
 .GD {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GD.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GD.svg) no-repeat
 }
 
 .GE {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GE.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GE.svg) no-repeat
 }
 
 .GF {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GF.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GF.svg) no-repeat
 }
 
 .GG {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GG.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GG.svg) no-repeat
 }
 
 .GH {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GH.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GH.svg) no-repeat
 }
 
 .GI {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GI.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GI.svg) no-repeat
 }
 
 .GL {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GL.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GL.svg) no-repeat
 }
 
 .GM {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GM.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GM.svg) no-repeat
 }
 
 .GN {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GN.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GN.svg) no-repeat
 }
 
 .GP {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GP.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GP.svg) no-repeat
 }
 
 .GQ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GQ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GQ.svg) no-repeat
 }
 
 .GR {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GR.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GR.svg) no-repeat
 }
 
 .GS {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GS.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GS.svg) no-repeat
 }
 
 .GT {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GT.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GT.svg) no-repeat
 }
 
 .GU {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GU.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GU.svg) no-repeat
 }
 
 .GW {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GW.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GW.svg) no-repeat
 }
 
 .GY {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/GY.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/GY.svg) no-repeat
 }
 
 .HK {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/HK.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/HK.svg) no-repeat
 }
 
 .HM {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/HM.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/HM.svg) no-repeat
 }
 
 .HN {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/HN.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/HN.svg) no-repeat
 }
 
 .HR {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/HR.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/HR.svg) no-repeat
 }
 
 .HT {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/HT.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/HT.svg) no-repeat
 }
 
 .HU {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/HU.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/HU.svg) no-repeat
 }
 
 .ID {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/ID.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/ID.svg) no-repeat
 }
 
 .IE {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/IE.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/IE.svg) no-repeat
 }
 
 .IL {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/IL.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/IL.svg) no-repeat
 }
 
 .IM {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/IM.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/IM.svg) no-repeat
 }
 
 .IN {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/IN.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/IN.svg) no-repeat
 }
 
 .IO {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/IO.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/IO.svg) no-repeat
 }
 
 .IQ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/IQ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/IQ.svg) no-repeat
 }
 
 .IR {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/IR.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/IR.svg) no-repeat
 }
 
 .IS {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/IS.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/IS.svg) no-repeat
 }
 
 .IT {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/IT.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/IT.svg) no-repeat
 }
 
 .JE {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/JE.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/JE.svg) no-repeat
 }
 
 .JM {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/JM.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/JM.svg) no-repeat
 }
 
 .JO {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/JO.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/JO.svg) no-repeat
 }
 
 .JP {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/JP.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/JP.svg) no-repeat
 }
 
 .KE {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/KE.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/KE.svg) no-repeat
 }
 
 .KG {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/KG.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/KG.svg) no-repeat
 }
 
 .KH {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/KH.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/KH.svg) no-repeat
 }
 
 .KI {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/KI.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/KI.svg) no-repeat
 }
 
 .KM {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/KM.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/KM.svg) no-repeat
 }
 
 .KN {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/KN.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/KN.svg) no-repeat
 }
 
 .KP {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/KP.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/KP.svg) no-repeat
 }
 
 .KR {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/KR.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/KR.svg) no-repeat
 }
 
 .KW {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/KW.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/KW.svg) no-repeat
 }
 
 .KY {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/KY.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/KY.svg) no-repeat
 }
 
 .KZ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/KZ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/KZ.svg) no-repeat
 }
 
 .LA {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/LA.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/LA.svg) no-repeat
 }
 
 .LB {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/LB.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/LB.svg) no-repeat
 }
 
 .LC {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/LC.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/LC.svg) no-repeat
 }
 
 .LGBT {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/LGBT.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/LGBT.svg) no-repeat
 }
 
 .LI {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/LI.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/LI.svg) no-repeat
 }
 
 .LK {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/LK.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/LK.svg) no-repeat
 }
 
 .LR {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/LR.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/LR.svg) no-repeat
 }
 
 .LS {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/LS.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/LS.svg) no-repeat
 }
 
 .LT {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/LT.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/LT.svg) no-repeat
 }
 
 .LU {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/LU.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/LU.svg) no-repeat
 }
 
 .LV {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/LV.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/LV.svg) no-repeat
 }
 
 .LY {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/LY.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/LY.svg) no-repeat
 }
 
 .MA {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MA.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MA.svg) no-repeat
 }
 
 .MC {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MC.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MC.svg) no-repeat
 }
 
 .MD {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MD.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MD.svg) no-repeat
 }
 
 .ME {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/ME.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/ME.svg) no-repeat
 }
 
 .MF {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MF.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MF.svg) no-repeat
 }
 
 .MG {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MG.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MG.svg) no-repeat
 }
 
 .MH {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MH.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MH.svg) no-repeat
 }
 
 .MK {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MK.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MK.svg) no-repeat
 }
 
 .ML {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/ML.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/ML.svg) no-repeat
 }
 
 .MM {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MM.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MM.svg) no-repeat
 }
 
 .MN {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MN.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MN.svg) no-repeat
 }
 
 .MO {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MO.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MO.svg) no-repeat
 }
 
 .MP {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MP.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MP.svg) no-repeat
 }
 
 .MQ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MQ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MQ.svg) no-repeat
 }
 
 .MR {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MR.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MR.svg) no-repeat
 }
 
 .MS {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MS.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MS.svg) no-repeat
 }
 
 .MT {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MT.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MT.svg) no-repeat
 }
 
 .MU {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MU.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MU.svg) no-repeat
 }
 
 .MV {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MV.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MV.svg) no-repeat
 }
 
 .MW {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MW.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MW.svg) no-repeat
 }
 
 .MX {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MX.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MX.svg) no-repeat
 }
 
 .MY {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MY.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MY.svg) no-repeat
 }
 
 .MZ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/MZ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/MZ.svg) no-repeat
 }
 
 .NA {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/NA.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/NA.svg) no-repeat
 }
 
 .NC {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/NC.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/NC.svg) no-repeat
 }
 
 .NE {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/NE.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/NE.svg) no-repeat
 }
 
 .NF {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/NF.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/NF.svg) no-repeat
 }
 
 .NG {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/NG.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/NG.svg) no-repeat
 }
 
 .NI {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/NI.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/NI.svg) no-repeat
 }
 
 .NL {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/NL.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/NL.svg) no-repeat
 }
 
 .NO {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/NO.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/NO.svg) no-repeat
 }
 
 .NP {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/NP.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/NP.svg) no-repeat
 }
 
 .NR {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/NR.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/NR.svg) no-repeat
 }
 
 .NU {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/NU.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/NU.svg) no-repeat
 }
 
 .NZ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/NZ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/NZ.svg) no-repeat
 }
 
 .OM {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/OM.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/OM.svg) no-repeat
 }
 
 .PA {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/PA.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/PA.svg) no-repeat
 }
 
 .PE {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/PE.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/PE.svg) no-repeat
 }
 
 .PF {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/PF.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/PF.svg) no-repeat
 }
 
 .PG {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/PG.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/PG.svg) no-repeat
 }
 
 .PH {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/PH.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/PH.svg) no-repeat
 }
 
 .PK {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/PK.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/PK.svg) no-repeat
 }
 
 .PL {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/PL.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/PL.svg) no-repeat
 }
 
 .PM {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/PM.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/PM.svg) no-repeat
 }
 
 .PN {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/PN.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/PN.svg) no-repeat
 }
 
 .PR {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/PR.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/PR.svg) no-repeat
 }
 
 .PS {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/PS.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/PS.svg) no-repeat
 }
 
 .PT {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/PT.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/PT.svg) no-repeat
 }
 
 .PW {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/PW.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/PW.svg) no-repeat
 }
 
 .PY {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/PY.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/PY.svg) no-repeat
 }
 
 .QA {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/QA.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/QA.svg) no-repeat
 }
 
 .RE {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/RE.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/RE.svg) no-repeat
 }
 
 .RO {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/RO.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/RO.svg) no-repeat
 }
 
 .RS {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/RS.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/RS.svg) no-repeat
 }
 
 .RU {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/RU.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/RU.svg) no-repeat
 }
 
 .RW {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/RW.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/RW.svg) no-repeat
 }
 
 .SA {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SA.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SA.svg) no-repeat
 }
 
 .SB {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SB.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SB.svg) no-repeat
 }
 
 .SC {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SC.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SC.svg) no-repeat
 }
 
 .SD {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SD.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SD.svg) no-repeat
 }
 
 .SE {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SE.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SE.svg) no-repeat
 }
 
 .SG {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SG.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SG.svg) no-repeat
 }
 
 .SH {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SH.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SH.svg) no-repeat
 }
 
 .SI {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SI.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SI.svg) no-repeat
 }
 
 .SJ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SJ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SJ.svg) no-repeat
 }
 
 .SK {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SK.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SK.svg) no-repeat
 }
 
 .SL {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SL.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SL.svg) no-repeat
 }
 
 .SM {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SM.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SM.svg) no-repeat
 }
 
 .SN {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SN.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SN.svg) no-repeat
 }
 
 .SO {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SO.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SO.svg) no-repeat
 }
 
 .SR {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SR.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SR.svg) no-repeat
 }
 
 .SS {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SS.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SS.svg) no-repeat
 }
 
 .ST {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/ST.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/ST.svg) no-repeat
 }
 
 .SV {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SV.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SV.svg) no-repeat
 }
 
 .SX {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SX.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SX.svg) no-repeat
 }
 
 .SY {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SY.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SY.svg) no-repeat
 }
 
 .SZ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/SZ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/SZ.svg) no-repeat
 }
 
 .TC {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/TC.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/TC.svg) no-repeat
 }
 
 .TD {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/TD.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/TD.svg) no-repeat
 }
 
 .TF {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/TF.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/TF.svg) no-repeat
 }
 
 .TG {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/TG.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/TG.svg) no-repeat
 }
 
 .TH {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/TH.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/TH.svg) no-repeat
 }
 
 .TJ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/TJ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/TJ.svg) no-repeat
 }
 
 .TK {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/TK.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/TK.svg) no-repeat
 }
 
 .TL {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/TL.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/TL.svg) no-repeat
 }
 
 .TM {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/TM.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/TM.svg) no-repeat
 }
 
 .TN {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/TN.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/TN.svg) no-repeat
 }
 
 .TO {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/TO.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/TO.svg) no-repeat
 }
 
 .TR {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/TR.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/TR.svg) no-repeat
 }
 
 .TT {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/TT.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/TT.svg) no-repeat
 }
 
 .TV {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/TV.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/TV.svg) no-repeat
 }
 
 .TW {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/TW.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/TW.svg) no-repeat
 }
 
 .TZ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/TZ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/TZ.svg) no-repeat
 }
 
 .UA {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/UA.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/UA.svg) no-repeat
 }
 
 .UG {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/UG.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/UG.svg) no-repeat
 }
 
 .UM {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/UM.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/UM.svg) no-repeat
 }
 
 .US-CA {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/US-CA.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/US-CA.svg) no-repeat
 }
 
 .US {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/US.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/US.svg) no-repeat
 }
 
 .UY {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/UY.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/UY.svg) no-repeat
 }
 
 .UZ {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/UZ.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/UZ.svg) no-repeat
 }
 
 .VA {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/VA.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/VA.svg) no-repeat
 }
 
 .VC {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/VC.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/VC.svg) no-repeat
 }
 
 .VE {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/VE.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/VE.svg) no-repeat
 }
 
 .VG {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/VG.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/VG.svg) no-repeat
 }
 
 .VI {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/VI.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/VI.svg) no-repeat
 }
 
 .VN {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/VN.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/VN.svg) no-repeat
 }
 
 .VU {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/VU.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/VU.svg) no-repeat
 }
 
 .WF {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/WF.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/WF.svg) no-repeat
 }
 
 .WS {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/WS.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/WS.svg) no-repeat
 }
 
 .XK {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/XK.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/XK.svg) no-repeat
 }
 
 .YE {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/YE.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/YE.svg) no-repeat
 }
 
 .YT {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/YT.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/YT.svg) no-repeat
 }
 
 .ZA {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/ZA.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/ZA.svg) no-repeat
 }
 
 .ZM {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/ZM.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/ZM.svg) no-repeat
 }
 
 .ZW {
-    background: url(http://localhost/arrive-desi/assets/admin/fonts/ZW.svg) no-repeat
+    background: url(https://ad.nishantsinghal.com/assets/admin/fonts/ZW.svg) no-repeat
 }
 
 
@@ -35843,7 +35843,7 @@ button.toast-close-button {
 }
 
 .slick-loading .slick-list {
-    background: #fff slick-image-url(http://localhost/arrive-desi/assets/admin/images/ajax-loader.gif) center center no-repeat
+    background: #fff slick-image-url(https://ad.nishantsinghal.com/assets/admin/images/ajax-loader.gif) center center no-repeat
 }
 
 .slick-prev,
@@ -38106,8 +38106,8 @@ div.fixed-table-scroll-outer {
 
 @font-face {
     font-family: linearicons-free;
-    src: url(http://localhost/arrive-desi/assets/admin/fonts/Linearicons-Free.eot);
-    src: url(http://localhost/arrive-desi/assets/admin/fonts/Linearicons-Free.eot?#iefixw118d) format("embedded-opentype"), url(http://localhost/arrive-desi/assets/admin/fonts/Linearicons-Free.woff2) format("woff2"), url(http://localhost/arrive-desi/assets/admin/fonts/Linearicons-Free.woff) format("woff"), url(http://localhost/arrive-desi/assets/admin/fonts/Linearicons-Free.ttf) format("truetype"), url(http://localhost/arrive-desi/assets/admin/fonts/Linearicons-Free.svg#Linearicons-Free) format("svg");
+    src: url(https://ad.nishantsinghal.com/assets/admin/fonts/Linearicons-Free.eot);
+    src: url(https://ad.nishantsinghal.com/assets/admin/fonts/Linearicons-Free.eot?#iefixw118d) format("embedded-opentype"), url(https://ad.nishantsinghal.com/assets/admin/fonts/Linearicons-Free.woff2) format("woff2"), url(https://ad.nishantsinghal.com/assets/admin/fonts/Linearicons-Free.woff) format("woff"), url(https://ad.nishantsinghal.com/assets/admin/fonts/Linearicons-Free.ttf) format("truetype"), url(https://ad.nishantsinghal.com/assets/admin/fonts/Linearicons-Free.svg#Linearicons-Free) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -38808,8 +38808,8 @@ div.fixed-table-scroll-outer {
 
 @font-face {
     font-family: pe-icon-7-stroke;
-    src: url(http://localhost/arrive-desi/assets/admin/fonts/Pe-icon-7-stroke.eot);
-    src: url(http://localhost/arrive-desi/assets/admin/fonts/Pe-icon-7-stroke.eot?#iefixd7yf1v) format("embedded-opentype"), url(http://localhost/arrive-desi/assets/admin/fonts/Pe-icon-7-stroke.woff) format("woff"), url(http://localhost/arrive-desi/assets/admin/fonts/Pe-icon-7-stroke.ttf) format("truetype"), url(http://localhost/arrive-desi/assets/admin/fonts/Pe-icon-7-stroke.svg#Pe-icon-7-stroke) format("svg");
+    src: url(https://ad.nishantsinghal.com/assets/admin/fonts/Pe-icon-7-stroke.eot);
+    src: url(https://ad.nishantsinghal.com/assets/admin/fonts/Pe-icon-7-stroke.eot?#iefixd7yf1v) format("embedded-opentype"), url(https://ad.nishantsinghal.com/assets/admin/fonts/Pe-icon-7-stroke.woff) format("woff"), url(https://ad.nishantsinghal.com/assets/admin/fonts/Pe-icon-7-stroke.ttf) format("truetype"), url(https://ad.nishantsinghal.com/assets/admin/fonts/Pe-icon-7-stroke.svg#Pe-icon-7-stroke) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -43657,4 +43657,8 @@ span.multiselect-native-select select {
 
 .list-action-container a {
     cursor: pointer;
+}
+
+.form-control-file {
+    width: unset !important;
 }

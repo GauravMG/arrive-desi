@@ -94,9 +94,9 @@ define("current_datetime", date("Y-m-d H:i:s"));
 /* //set date and time constants */
 
 /* assets directory */
-define("assets", "http://localhost/arrive-desi/assets/");
-define("assets_website", "http://localhost/arrive-desi/assets/website/");
-define("assets_admin", "http://localhost/arrive-desi/assets/admin/");
+define("assets", "https://ad.nishantsinghal.com/assets/");
+define("assets_website", "https://ad.nishantsinghal.com/assets/website/");
+define("assets_admin", "https://ad.nishantsinghal.com/assets/admin/");
 define("uploads", "uploads/");
 /* //assets directory */
 
