@@ -11448,7 +11448,8 @@ button,
 .app-header__logo .logo-src {
     height: 23px;
     width: 97px;
-    background: url(https://ad.nishantsinghal.com/assets/admin/images/logo-inverse.png)
+    background: url(https://ad.nishantsinghal.com/assets/admin/images/logo-inverse.png) no-repeat;
+    background-size: contain;
 }
 
 .app-header__menu,
@@ -21414,15 +21415,17 @@ legend {
 }
 
 .app-logo {
-    height: 23px;
-    width: 97px;
-    background: url(https://ad.nishantsinghal.com/assets/admin/images/logo-inverse.png)
+    height: 65px;
+    width: 100%;
+    background: url(https://ad.nishantsinghal.com/assets/admin/images/logo-inverse.png) no-repeat;
+    background-size: contain;
 }
 
 .app-logo-inverse {
     height: 23px;
     width: 97px;
-    background: url(https://ad.nishantsinghal.com/assets/admin/images/logo.png)
+    background: url(https://ad.nishantsinghal.com/assets/admin/images/logo.png) no-repeat;
+    background-size: contain;
 }
 
 .app-login-box .app-logo {
