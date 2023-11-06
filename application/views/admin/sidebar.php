@@ -43,6 +43,11 @@
             <i class="metismenu-icon pe-7s-graph2"></i>PGs
           </a>
         </li>
+        <li>
+          <a href="<?php echo base_url(); ?>admin/testimonials">
+            <i class="metismenu-icon pe-7s-graph2"></i>Testimonials
+          </a>
+        </li>
       </ul>
     </div>
   </div>

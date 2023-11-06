@@ -528,4 +528,96 @@ class Admin extends CI_Controller
       "message" => "PG colleges updated successfully"
     ));
   }
+
+  public function testimonials()
+  {
+    $this->checkSession();
+
+    $this->load->view("admin/testimonials");
+  }
+
+  public function fetchTestimonials()
+  {
+    // $this->checkSession();
+
+    $result = $this->common_model->fetchAllData("*", "testimonials", array(), array(), "testimonialId DESC");
+    if (!$result || empty($result)) {
+      $result = array();
+    }
+
+    echo json_encode(array(
+      "success" => true,
+      "message" => "Testimonials list",
+      "data" => $result
+    ));
+  }
+
+  public function manageTestimonial($testimonialId = null)
+  {
+    $this->checkSession();
+
+    $data = array();
+
+    if ($testimonialId) {
+      $result = $this->common_model->fetchData("*", "testimonials", array(
+        "testimonialId" => $testimonialId
+      ));
+      if ($result && !empty($result)) {
+        $data = $result[0];
+      }
+    }
+
+    $this->load->view("admin/manage-testimonial", array(
+      "data" => $data
+    ));
+  }
+
+  public function createTestimonial()
+  {
+    $this->checkSession();
+
+    if (empty($_FILES)) {
+      echo json_encode(array(
+        "success" => false,
+        "message" => "Bad request"
+      ));
+      return;
+    }
+
+    if (!isset($_FILES["testimonialVideo"])) {
+      echo json_encode(array(
+        "success" => false,
+        "message" => "Bad request"
+      ));
+      return;
+    }
+
+    if ($_FILES["testimonialVideo"]["error"] > 0) {
+      echo json_encode(array(
+        "success" => false,
+        "message" => "Bad request"
+      ));
+      return;
+    }
+
+    $testimonialVideoLink = "";
+
+    $ext = explode('.', basename($_FILES['testimonialVideo']['name']));
+    $file_extension = end($ext);
+    $target_path = uploads . strtotime(current_datetime) . "-" . str_replace(" ", "-", trim($_FILES['testimonialVideo']['name']));
+    if (move_uploaded_file($_FILES['testimonialVideo']['tmp_name'], $target_path)) {
+      $testimonialVideoLink = str_replace(" ", "-", trim(strtotime(current_datetime) . "-" . $_FILES['testimonialVideo']['name']));
+    }
+
+    $this->common_model->insertData("testimonials", array(
+      "link" => $testimonialVideoLink,
+      "createdBy" => $_SESSION["arrive_desi_user_details"]["id"],
+      "updatedBy" => $_SESSION["arrive_desi_user_details"]["id"]
+    ));
+
+    echo json_encode(array(
+      "success" => true,
+      "message" => "Testimonial created successfully"
+    ));
+  }
 }
