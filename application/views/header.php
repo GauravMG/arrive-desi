@@ -38,7 +38,7 @@
                         <a class="text-white nav-link active" aria-current="page" href="#">Transportation</a>
                     </li>
                     <li class="nav-item header-hover header-active mx-3 fw-medium">
-                        <a class="text-white nav-link active" aria-current="page" href="<?php echo base_url(); ?>accommodation">Accommodation</a>
+                        <a class="text-white nav-link active" aria-current="page" href="<?php echo base_url(); ?>accommodations">Accommodation</a>
                     </li>
                     <li class="nav-item header-hover header-active mx-3 fw-medium">
                         <a class="text-white nav-link active" aria-current="page" href="<?php echo base_url(); ?>host">Host</a>

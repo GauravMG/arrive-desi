@@ -166,9 +166,16 @@ class Admin extends CI_Controller
 
   public function fetchColleges()
   {
-    $this->checkSession();
+    // $this->checkSession();
 
-    $result = $this->common_model->fetchAllData("*", "colleges", array(), array(), "collegeId DESC");
+    if (isset($_POST["search"])) {
+      $result = $this->common_model->fetchDataLike("*", "colleges", array(
+        "name" => $_POST["search"]
+      ));
+    } else {
+      $result = $this->common_model->fetchAllData("*", "colleges", array(), array(), "collegeId DESC");
+    }
+
     if (!$result || empty($result)) {
       $result = array();
     }
@@ -631,6 +638,147 @@ class Admin extends CI_Controller
       echo json_encode(array(
         "success" => true,
         "message" => "Testimonial deleted successfully"
+      ));
+  }
+
+  public function blogs()
+  {
+    $this->checkSession();
+
+    $this->load->view("admin/blogs");
+  }
+
+  public function fetchBlogs()
+  {
+    // $this->checkSession();
+
+    $result = $this->common_model->fetchAllData("*", "blogs", array(), array(), "blogId DESC");
+    if (!$result || empty($result)) {
+      $result = array();
+    }
+
+    echo json_encode(array(
+      "success" => true,
+      "message" => "Blogs list",
+      "data" => $result
+    ));
+  }
+
+  public function manageBlog($blogId = null)
+  {
+    $this->checkSession();
+
+    $data = array();
+
+    if ($blogId) {
+      $result = $this->common_model->fetchData("*", "blogs", array(
+        "blogId" => $blogId
+      ));
+      if ($result && !empty($result)) {
+        $data = $result[0];
+      }
+    }
+
+    $this->load->view("admin/manage-blog", array(
+      "data" => $data
+    ));
+  }
+
+  public function createBlog()
+  {
+    $this->checkSession();
+
+    if (empty($_POST)) {
+      echo json_encode(array(
+        "success" => false,
+        "message" => "Bad request"
+      ));
+      return;
+    }
+
+    if (!isset($_POST["title"])) {
+      echo json_encode(array(
+        "success" => false,
+        "message" => "Bad request"
+      ));
+      return;
+    }
+
+    $data = $_POST;
+    $data["createdBy"] = $_SESSION["arrive_desi_user_details"]["id"];
+    $data["updatedBy"] = $_SESSION["arrive_desi_user_details"]["id"];
+    unset($data["coverMedia"]);
+
+    $ext = explode('.', basename($_FILES['coverMedia']['name']));
+    $file_extension = end($ext);
+    $target_path = uploads . strtotime(current_datetime) . "-" . str_replace(" ", "-", trim($_FILES['coverMedia']['name']));
+    if (move_uploaded_file($_FILES['coverMedia']['tmp_name'], $target_path)) {
+      $data["coverMedia"] = str_replace(" ", "-", trim(strtotime(current_datetime) . "-" . $_FILES['coverMedia']['name']));
+    }
+
+    $this->common_model->insertData("blogs", $data);
+
+    echo json_encode(array(
+      "success" => true,
+      "message" => "Blog created successfully"
+    ));
+  }
+
+  public function updateBlog()
+  {
+    $this->checkSession();
+
+    if (empty($_POST)) {
+      echo json_encode(array(
+        "success" => false,
+        "message" => "Bad request"
+      ));
+      return;
+    }
+
+    if (!isset($_POST["blogId"]) || !isset($_POST["title"])) {
+      echo json_encode(array(
+        "success" => false,
+        "message" => "Bad request"
+      ));
+      return;
+    }
+
+    $data = $_POST;
+    $data["updatedBy"] = $_SESSION["arrive_desi_user_details"]["id"];
+    unset($data["coverMedia"]);
+
+    if (isset($_FILES["coverMedia"])) {
+      if ($_FILES["coverMedia"]["error"] === 0) {
+        $ext = explode('.', basename($_FILES['coverMedia']['name']));
+        $file_extension = end($ext);
+        $target_path = uploads . strtotime(current_datetime) . "-" . str_replace(" ", "-", trim($_FILES['coverMedia']['name']));
+        if (move_uploaded_file($_FILES['coverMedia']['tmp_name'], $target_path)) {
+          $data["coverMedia"] = str_replace(" ", "-", trim(strtotime(current_datetime) . "-" . $_FILES['coverMedia']['name']));
+        }
+      }
+    }
+
+    $this->common_model->updateData("blogs", $data, array(
+      "blogId" => $_POST["blogId"]
+    ));
+
+    echo json_encode(array(
+      "success" => true,
+      "message" => "Blog created successfully"
+    ));
+  }
+  
+  public function deleteBlog()
+  {
+      $db_input_where = array(
+          "blogId" => $_REQUEST["blogId"]
+      );
+      $this->common_model->deleteData("blogs", $db_input_where);
+
+      echo json_encode(array(
+        "success" => true,
+        "message" => "Blog deleted successfully"
       ));
   }
 }

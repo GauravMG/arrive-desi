@@ -53,13 +53,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 /* start web routes */
 $route['news'] = "web/news";
 $route['host'] = "web/host";
-$route['accommodation'] = "web/accommodation";
+$route['accommodations'] = "web/accommodations";
 $route['contact'] = "web/contact";
 /* end web routes */
 
 /* start admin routes */
+$route['admin/blog/add'] = "admin/manageBlog";
+$route['admin/blog/edit/(:any)'] = "admin/manageBlog/$1";
 $route['admin/testimonial/add'] = "admin/manageTestimonial";
-$route['admin/testimonial/edit/(:any)'] = "admin/manageTestimonial/$1";
 $route['admin/pg/manage-colleges/(:any)'] = "admin/managePGColleges/$1";
 $route['admin/pg/add'] = "admin/managePG";
 $route['admin/pg/edit/(:any)'] = "admin/managePG/$1";

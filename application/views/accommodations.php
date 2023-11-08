@@ -30,19 +30,20 @@
 
     <!-- new hosts sec  -->
     <div id="cards-con-1" class="container py-5 ">
-        <div class="row g-4">
+        <div class="row g-4" id="pgs">
+
             <div class=" col-lg-4 col-md-6 col-sm-12">
                 <div id="card-1" class="card hover-img-zoom shadow">
                     <div class="card-img-con overflow-hidden">
                         <div class="card-img-slider">
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-2.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-2.jpg" class="card-img-top" alt="">
                             </div>
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-1.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-1.jpg" class="card-img-top" alt="">
                             </div>
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-4.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-4.jpg" class="card-img-top" alt="">
                             </div>
                         </div>
                     </div>
@@ -83,7 +84,7 @@
                                     <strong class="OpeningClosing">Opening Time</strong>
                                     <div class="d-flex justify-content-center">
                                         <div class="">
-                                            <img src="images/sunrise-o.png" class="me-1" style="width: 20px; height: 20px;" alt="">
+                                            <img src="<?php echo assets_website; ?>images/sunrise-o.png" class="me-1" style="width: 20px; height: 20px;" alt="">
                                         </div>
                                         <div class="morning-time">
                                             <p class="oC_time card-text" style="color: #7d7d7d;">8:00Am</p>
@@ -94,7 +95,7 @@
                                     <strong class="OpeningClosing">Closing Time</strong>
                                     <div class="d-flex justify-content-center">
                                         <div class="">
-                                            <img src="images/moon-o.png" class="me-1" style="width: 18px; height: 20px;" alt="">
+                                            <img src="<?php echo assets_website; ?>images/moon-o.png" class="me-1" style="width: 18px; height: 20px;" alt="">
                                         </div>
                                         <div class="evening-time">
                                             <p class="oC_time card-text" style="color: #7d7d7d;">6:30Pm</p>
@@ -118,13 +119,13 @@
                     <div class="card-img-con overflow-hidden">
                         <div class="card-img-slider">
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-2.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-2.jpg" class="card-img-top" alt="">
                             </div>
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-1.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-1.jpg" class="card-img-top" alt="">
                             </div>
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-4.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-4.jpg" class="card-img-top" alt="">
                             </div>
                         </div>
                     </div>
@@ -165,7 +166,7 @@
                                     <strong class="OpeningClosing">Opening Time</strong>
                                     <div class="d-flex justify-content-center">
                                         <div class="">
-                                            <img src="images/sunrise-o.png" class="me-1" style="width: 20px; height: 20px;" alt="">
+                                            <img src="<?php echo assets_website; ?>images/sunrise-o.png" class="me-1" style="width: 20px; height: 20px;" alt="">
                                         </div>
                                         <div class="morning-time">
                                             <p class="oC_time card-text" style="color: #7d7d7d;">8:00Am</p>
@@ -176,7 +177,7 @@
                                     <strong class="OpeningClosing">Closing Time</strong>
                                     <div class="d-flex justify-content-center">
                                         <div class="">
-                                            <img src="images/moon-o.png" class="me-1" style="width: 18px; height: 20px;" alt="">
+                                            <img src="<?php echo assets_website; ?>images/moon-o.png" class="me-1" style="width: 18px; height: 20px;" alt="">
                                         </div>
                                         <div class="evening-time">
                                             <p class="oC_time card-text" style="color: #7d7d7d;">6:30Pm</p>
@@ -200,13 +201,13 @@
                     <div class="card-img-con overflow-hidden">
                         <div class="card-img-slider">
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-2.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-2.jpg" class="card-img-top" alt="">
                             </div>
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-1.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-1.jpg" class="card-img-top" alt="">
                             </div>
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-4.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-4.jpg" class="card-img-top" alt="">
                             </div>
                         </div>
                     </div>
@@ -247,7 +248,7 @@
                                     <strong class="OpeningClosing">Opening Time</strong>
                                     <div class="d-flex justify-content-center">
                                         <div class="">
-                                            <img src="images/sunrise-o.png" class="me-1" style="width: 20px; height: 20px;" alt="">
+                                            <img src="<?php echo assets_website; ?>images/sunrise-o.png" class="me-1" style="width: 20px; height: 20px;" alt="">
                                         </div>
                                         <div class="morning-time">
                                             <p class="oC_time card-text" style="color: #7d7d7d;">8:00Am</p>
@@ -258,7 +259,7 @@
                                     <strong class="OpeningClosing">Closing Time</strong>
                                     <div class="d-flex justify-content-center">
                                         <div class="">
-                                            <img src="images/moon-o.png" class="me-1" style="width: 18px; height: 20px;" alt="">
+                                            <img src="<?php echo assets_website; ?>images/moon-o.png" class="me-1" style="width: 18px; height: 20px;" alt="">
                                         </div>
                                         <div class="evening-time">
                                             <p class="oC_time card-text" style="color: #7d7d7d;">6:30Pm</p>
@@ -282,13 +283,13 @@
                     <div class="card-img-con overflow-hidden">
                         <div class="card-img-slider">
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-2.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-2.jpg" class="card-img-top" alt="">
                             </div>
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-1.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-1.jpg" class="card-img-top" alt="">
                             </div>
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-4.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-4.jpg" class="card-img-top" alt="">
                             </div>
                         </div>
                     </div>
@@ -329,7 +330,7 @@
                                     <strong class="OpeningClosing">Opening Time</strong>
                                     <div class="d-flex justify-content-center">
                                         <div class="">
-                                            <img src="images/sunrise-o.png" class="me-1" style="width: 20px; height: 20px;" alt="">
+                                            <img src="<?php echo assets_website; ?>images/sunrise-o.png" class="me-1" style="width: 20px; height: 20px;" alt="">
                                         </div>
                                         <div class="morning-time">
                                             <p class="oC_time card-text" style="color: #7d7d7d;">8:00Am</p>
@@ -340,7 +341,7 @@
                                     <strong class="OpeningClosing">Closing Time</strong>
                                     <div class="d-flex justify-content-center">
                                         <div class="">
-                                            <img src="images/moon-o.png" class="me-1" style="width: 18px; height: 20px;" alt="">
+                                            <img src="<?php echo assets_website; ?>images/moon-o.png" class="me-1" style="width: 18px; height: 20px;" alt="">
                                         </div>
                                         <div class="evening-time">
                                             <p class="oC_time card-text" style="color: #7d7d7d;">6:30Pm</p>
@@ -364,13 +365,13 @@
                     <div class="card-img-con overflow-hidden">
                         <div class="card-img-slider">
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-2.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-2.jpg" class="card-img-top" alt="">
                             </div>
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-1.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-1.jpg" class="card-img-top" alt="">
                             </div>
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-4.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-4.jpg" class="card-img-top" alt="">
                             </div>
                         </div>
                     </div>
@@ -411,7 +412,7 @@
                                     <strong class="OpeningClosing">Opening Time</strong>
                                     <div class="d-flex justify-content-center">
                                         <div class="">
-                                            <img src="images/sunrise-o.png" class="me-1" style="width: 20px; height: 20px;" alt="">
+                                            <img src="<?php echo assets_website; ?>images/sunrise-o.png" class="me-1" style="width: 20px; height: 20px;" alt="">
                                         </div>
                                         <div class="morning-time">
                                             <p class="oC_time card-text" style="color: #7d7d7d;">8:00Am</p>
@@ -422,7 +423,7 @@
                                     <strong class="OpeningClosing">Closing Time</strong>
                                     <div class="d-flex justify-content-center">
                                         <div class="">
-                                            <img src="images/moon-o.png" class="me-1" style="width: 18px; height: 20px;" alt="">
+                                            <img src="<?php echo assets_website; ?>images/moon-o.png" class="me-1" style="width: 18px; height: 20px;" alt="">
                                         </div>
                                         <div class="evening-time">
                                             <p class="oC_time card-text" style="color: #7d7d7d;">6:30Pm</p>
@@ -446,13 +447,13 @@
                     <div class="card-img-con overflow-hidden">
                         <div class="card-img-slider">
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-2.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-2.jpg" class="card-img-top" alt="">
                             </div>
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-1.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-1.jpg" class="card-img-top" alt="">
                             </div>
                             <div class="c-img">
-                                <img src="images/hostel-pg-img-4.jpg" class="card-img-top" alt="">
+                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-4.jpg" class="card-img-top" alt="">
                             </div>
                         </div>
                     </div>
@@ -493,7 +494,7 @@
                                     <strong class="OpeningClosing">Opening Time</strong>
                                     <div class="d-flex justify-content-center">
                                         <div class="">
-                                            <img src="images/sunrise-o.png" class="me-1" style="width: 20px; height: 20px;" alt="">
+                                            <img src="<?php echo assets_website; ?>images/sunrise-o.png" class="me-1" style="width: 20px; height: 20px;" alt="">
                                         </div>
                                         <div class="morning-time">
                                             <p class="oC_time card-text" style="color: #7d7d7d;">8:00Am</p>
@@ -504,7 +505,7 @@
                                     <strong class="OpeningClosing">Closing Time</strong>
                                     <div class="d-flex justify-content-center">
                                         <div class="">
-                                            <img src="images/moon-o.png" class="me-1" style="width: 18px; height: 20px;" alt="">
+                                            <img src="<?php echo assets_website; ?>images/moon-o.png" class="me-1" style="width: 18px; height: 20px;" alt="">
                                         </div>
                                         <div class="evening-time">
                                             <p class="oC_time card-text" style="color: #7d7d7d;">6:30Pm</p>
@@ -523,7 +524,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -612,7 +612,155 @@
 
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
-    
+
+    <script>
+        $(document).ready(function() {
+            fetchPGs()
+        })
+
+        function fetchPGs() {
+            $.ajax({
+                url: "<?php echo base_url(); ?>admin/fetchPGs",
+                method: "POST",
+                data: {},
+                success: function(response) {
+                    const {
+                        success,
+                        message,
+                        data
+                    } = JSON.parse(response)
+
+                    if (!success) {
+                        Notiflix.Notify.failure(message)
+                        return false
+                    }
+
+                    let html = ""
+
+                    for (let i = 0; i < data?.length; i++) {
+                        html += `
+                            <div class=" col-lg-4 col-md-6 col-sm-12">
+                                <div id="card-1" class="card hover-img-zoom shadow">
+                                    <div class="card-img-con overflow-hidden">
+                                        <!-- <div class="card-img-slider">
+                                            <div class="c-img">
+                                                <img src="<a href="<?php echo assets_website; ?>images/hostel-pg-img-2.jpg" class="card-img-top" alt="">
+                                            </div>
+                                            <div class="c-img">
+                                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-1.jpg" class="card-img-top" alt="">
+                                            </div>
+                                            <div class="c-img">
+                                                <img src="<?php echo assets_website; ?>images/hostel-pg-img-4.jpg" class="card-img-top" alt="">
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                    <div class="card-body px-4 pb-4">
+                                        <div class="rating-con d-flex justify-content-between">
+                                            <!-- star rating -->
+                                            <div class="rating">
+                                                <input type="radio" name="rating" id="star5">
+                                                <label for="star5"></label>
+                                                <input type="radio" name="rating" id="star4">
+                                                <label for="star4"></label>
+                                                <input type="radio" name="rating" id="star3">
+                                                <label for="star3"></label>
+                                                <input type="radio" name="rating" id="star2">
+                                                <label for="star2"></label>
+                                                <input type="radio" name="rating" id="star1">
+                                                <label for="star1"></label>
+                                            </div>
+                                            <div class="host-price d-flex flex-column justify-content-center">
+                                                <a href="" class="t-color text-decoration-none">$1200</a>
+                                            </div>
+                                        </div>
+                                        <div class="host-name d-flex justify-content-between ">
+                                            <h5 class="card-title mb-0 fw-bold">${data[i].name}</h5>
+                                        </div>
+                                        <div class="host-address-con w-90 mb-3 mt-1">
+                                            <div class="host-address">
+                                                <div class="">
+                                                    <h6 class="host-location fw-light">Lorem ipsum dolor sit amet consectetur
+                                                        adipisicing elit. Veniam!</h6>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="OpeningClosing-Con mb-3">
+                                            <div class="text-center d-flex justify-content-between">
+                                                <div class="Opening-con">
+                                                    <strong class="OpeningClosing">Opening Time</strong>
+                                                    <div class="d-flex justify-content-center">
+                                                        <div class="">
+                                                            <img src="<?php echo assets_website; ?>images/sunrise-o.png" class="me-1" style="width: 20px; height: 20px;" alt="">
+                                                        </div>
+                                                        <div class="morning-time">
+                                                            <p class="oC_time card-text" style="color: #7d7d7d;">${data[i].openingTime}</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="Closing-con">
+                                                    <strong class="OpeningClosing">Closing Time</strong>
+                                                    <div class="d-flex justify-content-center">
+                                                        <div class="">
+                                                            <img src="<?php echo assets_website; ?>images/moon-o.png" class="me-1" style="width: 18px; height: 20px;" alt="">
+                                                        </div>
+                                                        <div class="evening-time">
+                                                            <p class="oC_time card-text" style="color: #7d7d7d;">${data[i].closingTime}</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="readMore-btn-con d-flex justify-content-between">
+                                            <a href="#" class="host-card-link-t text-reset opacity-50">Read More</a>
+                                            ${(data[i].rulesAndRegulations ?? "").trim() !== "" ? `<a href="<?php echo base_url() . uploads; ?>${data[i].rulesAndRegulations}" target="_blank" class="host-card-link-t text-reset opacity-50">Terms & Conditions</a>` : ""}
+                                        </div>
+                                        <div class="bookNow-btn">
+                                            <a href="#" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        `
+                    }
+
+                    $("#pgs").html(html)
+
+                    // $('.card-img-slider').slick({
+                    //     slidesToShow: 1,
+                    //     slidesToScroll: 1,
+                    //     infinite: true,
+                    //     autoplay: true,
+                    //     autoplaySpeed: 2000,
+                    //     arrows: false,
+                    //     dots: false,
+                    //     pauseOnHover: false,
+                    //     adaptiveHeight: true,
+                    //     prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+                    //     nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+                    //     responsive: [{
+                    //             breakpoint: 980,
+                    //             settings: {
+                    //                 slidesToShow: 1,
+                    //             }
+                    //         },
+                    //         {
+                    //             breakpoint: 480,
+                    //             settings: {
+                    //                 slidesToShow: 1,
+                    //             }
+                    //         }
+                    //     ]
+                    // });
+                },
+                error: function(error) {
+                    console.log(`error`, error)
+                    Notiflix.Notify.failure("Something went wrong. Please try again later!")
+                }
+            })
+        }
+    </script>
+
 </body>
 
 </html>

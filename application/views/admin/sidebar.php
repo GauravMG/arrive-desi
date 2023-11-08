@@ -35,17 +35,22 @@
         <li class="app-sidebar__heading">Menu</li>
         <li>
           <a href="<?php echo base_url(); ?>admin/colleges">
-            <i class="metismenu-icon pe-7s-graph2"></i>Colleges
+            <i class="metismenu-icon pe-7s-study"></i>Colleges
           </a>
         </li>
         <li>
           <a href="<?php echo base_url(); ?>admin/pgs">
-            <i class="metismenu-icon pe-7s-graph2"></i>PGs
+            <i class="metismenu-icon pe-7s-home"></i>PGs
           </a>
         </li>
         <li>
           <a href="<?php echo base_url(); ?>admin/testimonials">
-            <i class="metismenu-icon pe-7s-graph2"></i>Testimonials
+            <i class="metismenu-icon pe-7s-note2"></i>Testimonials
+          </a>
+        </li>
+        <li>
+          <a href="<?php echo base_url(); ?>admin/blogs">
+            <i class="metismenu-icon pe-7s-news-paper"></i>Blogs
           </a>
         </li>
       </ul>

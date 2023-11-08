@@ -2,5 +2,6 @@
 <script src="<?php echo assets; ?>js/jquery.min.js"></script>
 <script src="<?php echo assets; ?>js/bootstrap.bundle.min.js"></script>
 <script src="<?php echo assets; ?>js/slick.js"></script>
+<script src="<?php echo assets; ?>js/notiflix-aio-3.2.6.min.js"></script>
 
 <script src="<?php echo assets_website; ?>script/new-script.js"></script>

@@ -15,8 +15,8 @@ class Web extends CI_Controller
         $this->load->view("contact");
     }
 
-    public function accommodation() {
-        $this->load->view("accommodation");
+    public function accommodations() {
+        $this->load->view("accommodations");
     }
 
     public function host() {

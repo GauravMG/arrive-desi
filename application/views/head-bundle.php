@@ -5,5 +5,6 @@
 
 <link href="<?php echo assets; ?>css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <link rel="stylesheet" href="<?php echo assets; ?>css/font-awesome.min.css">
+<link href="<?php echo assets; ?>css/notiflix-3.2.6.min.css" rel="stylesheet">
 
 <link rel="stylesheet" href="<?php echo assets_website; ?>styles/new_style.css">

@@ -4,6 +4,33 @@
 <head>
     <?php include "head-bundle.php"; ?>
 
+    <style>
+        #searchedColleges {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            width: 37%;
+        }
+
+        #searchedColleges li a {
+            border: 1px solid #ddd;
+            margin-top: -1px;
+            /* Prevent double borders */
+            background-color: #f6f6f6;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            color: black;
+            display: block;
+            cursor: pointer;
+        }
+
+        #searchedColleges li a:hover:not(.header) {
+            background-color: #eee;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -24,9 +51,10 @@
 
                     <div class="input-group mb-3 bg-white py-2 px-3 rounded-pill">
                         <span class="input-group-text"><img src="<?php echo assets_website; ?>images/search-icon.png" alt=""></span>
-                        <input type="text" class="form-control" placeholder="Colleges" aria-label="Amount (to the nearest dollar)">
-                        <span class="input-group-text"><button class="button bg-orange border-0 rounded-pill py-2 text-white px-4">Search</button></span>
+                        <input id="inputSearchCollege" type="text" class="form-control" placeholder="Colleges" aria-label="Amount (to the nearest dollar)">
+                        <span class="input-group-text"><button id="buttonSearchAccommodationByCollege" onclick="searchAccommodationByCollege()" class="button bg-orange border-0 rounded-pill py-2 text-white px-4">Search</button></span>
                     </div>
+                    <ul id="searchedColleges"></ul>
 
                 </div>
                 <div class="col col-lg-6 col-sm-12">
@@ -56,7 +84,6 @@
         </div>
     </div>
 
-
     <!-- brands slider -->
     <div class="container container-md container-sm text-center py-5 mt-5 brands-sec">
         <div class="row d-flex flex-column">
@@ -78,6 +105,7 @@
             </div>
         </div>
     </div>
+
     <!-- video slide sections -->
     <div class="container container-md container-sm text-center py-5 mt-5 videos-sec sub_col">
         <div class="row d-flex flex-column position-relative">
@@ -90,7 +118,6 @@
 
             </div>
         </div>
-    </div>
     </div>
 
     <!-- we serve section  -->
@@ -166,7 +193,6 @@
             </div>
         </div>
     </div>
-
 
     <!-- create about us section -->
     <!-- <section class="section section-2">
@@ -266,7 +292,6 @@
 
     </section>
 
-
     <!-- blog section  -->
     <div class="container w-100 container-md container-sm text-center sub_col mt-5">
         <div class="row">
@@ -279,74 +304,7 @@
 
     <!-- blog section -->
     <div id="blog-pg-blog-sec" class="container mt-5 pb-5">
-        <div class="row g-5">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="blog-hover-img-zoom card blog_post">
-                    <div class="blog-img overflow-hidden">
-                        <img src="<?php echo assets_website; ?>images/blog-img.jpg" class="blog-card-img-top card-img-top" alt="...">
-                        <!-- <div class="logo_img"><img class="w-100 rounded-circle" src="<?php echo assets_website; ?>images/plane_arrow_img.png"
-                                alt=""></div> -->
-                    </div>
-                    <div class="card-body blog_text">
-                        <div class="blog_title">
-                            <h3 class="card-title">Lorem, ipsum.</h3>
-                        </div>
-                        <div class="blog_peragraph">
-                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
-                                labore nobis sed iure consectetur dolor recusandae alias cumque quidem voluptatem?
-                            </p>
-                        </div>
-                        <div class="blog_read_btn mt-4">
-                            <button class="w-100 px-2 py-2 border border-0 rounded">Read More</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="blog-hover-img-zoom card blog_post">
-                    <div class="blog-img overflow-hidden">
-                        <img src="<?php echo assets_website; ?>images/blog-img.jpg" class="blog-card-img-top card-img-top" alt="...">
-                        <!-- <div class="logo_img"><img class="w-100 rounded-circle" src="<?php echo assets_website; ?>images/plane_arrow_img.png"
-                                alt=""></div> -->
-                    </div>
-                    <div class="card-body blog_text">
-                        <div class="blog_title">
-                            <h3 class="card-title">Lorem, ipsum.</h3>
-                        </div>
-                        <div class="blog_peragraph">
-                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
-                                labore nobis sed iure consectetur dolor recusandae alias cumque quidem voluptatem?
-                            </p>
-                        </div>
-                        <div class="blog_read_btn mt-4">
-                            <button class="w-100 px-2 py-2 border border-0 rounded">Read More</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="blog-hover-img-zoom card blog_post">
-                    <div class="blog-img overflow-hidden">
-                        <img src="<?php echo assets_website; ?>images/blog-img.jpg" class="blog-card-img-top card-img-top" alt="...">
-                        <!-- <div class="logo_img"><img class="w-100 rounded-circle" src="<?php echo assets_website; ?>images/plane_arrow_img.png"
-                                alt=""></div> -->
-                    </div>
-                    <div class="card-body blog_text">
-                        <div class="blog_title">
-                            <h3 class="card-title">Lorem, ipsum.</h3>
-                        </div>
-                        <div class="blog_peragraph">
-                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
-                                labore nobis sed iure consectetur dolor recusandae alias cumque quidem voluptatem?
-                            </p>
-                        </div>
-                        <div class="blog_read_btn mt-4">
-                            <button class="w-100 px-2 py-2 border border-0 rounded">Read More</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="row g-5" id="blogs"></div>
     </div>
 
     <!-- contact form section  -->
@@ -429,6 +387,11 @@
     <script>
         $(document).ready(function() {
             fetchTestimonials()
+            fetchBlogs()
+
+            $("#inputSearchCollege").on("input", function() {
+                searchColleges(this.value)
+            })
         })
 
         function fetchTestimonials() {
@@ -447,6 +410,10 @@
                         let html = ""
 
                         for (let i = 0; i < data?.length; i++) {
+                            if (i >= 3) {
+                                break
+                            }
+
                             html += `
                                 <div class="slider_vid mx-2 rounded-3 ">
                                     <video width="100%" height="100%" controls="controls" src="<?php echo base_url() . uploads; ?>${data[i].link}">
@@ -464,6 +431,118 @@
                     console.log(`error`, error)
                 }
             })
+        }
+
+        function fetchBlogs() {
+            $.ajax({
+                url: "<?php echo base_url(); ?>admin/fetchBlogs",
+                method: "POST",
+                data: {},
+                success: function(response) {
+                    const {
+                        success,
+                        message,
+                        data
+                    } = JSON.parse(response)
+
+                    if (success) {
+                        let html = ""
+
+                        for (let i = 0; i < data?.length; i++) {
+                            if (i >= 3) {
+                                break
+                            }
+
+                            html += `
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="blog-hover-img-zoom card blog_post">
+                                        <div class="blog-img overflow-hidden">
+                                            <img src="<?php echo base_url() . uploads; ?>${data[i].coverMedia}" class="blog-card-img-top card-img-top" alt="...">
+                                            <!-- <div class="logo_img"><img class="w-100 rounded-circle" src="<?php echo assets_website; ?>images/plane_arrow_img.png"
+                                                    alt=""></div> -->
+                                        </div>
+                                        <div class="card-body blog_text">
+                                            <div class="blog_title">
+                                                <h3 class="card-title">${data[i].title}</h3>
+                                            </div>
+                                            <div class="blog_peragraph">
+                                                <!-- <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
+                                                    labore nobis sed iure consectetur dolor recusandae alias cumque quidem voluptatem?
+                                                </p> -->
+                                                ${data[i].content}
+                                            </div>
+                                            <div class="blog_read_btn mt-4">
+                                                <button class="w-100 px-2 py-2 border border-0 rounded">Read More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            `
+                        }
+
+                        $("#blogs").html(html)
+                    }
+                },
+                error: function(error) {
+                    console.log(`error`, error)
+                }
+            })
+        }
+
+        function searchColleges(search) {
+            if ((search ?? "").trim() === "") {
+                $("#searchedColleges").html("")
+                return
+            }
+
+            $.ajax({
+                url: "<?php echo base_url(); ?>admin/fetchColleges",
+                method: "POST",
+                data: {
+                    search
+                },
+                success: function(response) {
+                    const {
+                        success,
+                        message,
+                        data
+                    } = JSON.parse(response)
+
+                    if (success) {
+                        let html = ""
+
+                        for (let i = 0; i < data?.length; i++) {
+                            if (i >= 3) {
+                                break
+                            }
+
+                            html += `<li><a onclick="onSelectCollege(${data[i].collegeId}, '${data[i].name}')">${data[i].name}</a></li>`
+                        }
+
+                        $("#searchedColleges").html(html)
+                    }
+                },
+                error: function(error) {
+                    console.log(`error`, error)
+                }
+            })
+        }
+
+        function onSelectCollege(collegeId, collegeName) {
+            $("#inputSearchCollege").val(collegeName)
+            $("#buttonSearchAccommodationByCollege").attr("collegeId", collegeId)
+            $("#searchedColleges").html("")
+        }
+
+        function searchAccommodationByCollege() {
+            const collegeId = $("#buttonSearchAccommodationByCollege").attr("collegeId")
+
+            if ((collegeId ?? "").trim() === "") {
+                Notiflix.Notify.failure("Please search and select a college")
+                return false
+            }
+
+            window.location.href = `<?php echo base_url(); ?>accommodations?collegeId=${collegeId}`
         }
     </script>
 
