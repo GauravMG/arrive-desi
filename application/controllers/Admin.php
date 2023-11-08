@@ -620,4 +620,17 @@ class Admin extends CI_Controller
       "message" => "Testimonial created successfully"
     ));
   }
+    
+  public function deleteTestimonial()
+  {
+      $db_input_where = array(
+          "testimonialId" => $_REQUEST["testimonialId"]
+      );
+      $this->common_model->deleteData("testimonials", $db_input_where);
+
+      echo json_encode(array(
+        "success" => true,
+        "message" => "Testimonial deleted successfully"
+      ));
+  }
 }

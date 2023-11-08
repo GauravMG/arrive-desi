@@ -114,7 +114,30 @@ $pageTitle = "Testimonials";
     }
 
     function onClickDelete(testimonialId) {
-      window.location.href = `<?php echo base_url(); ?>admin/testimonial/delete/${testimonialId}`
+      $.ajax({
+        url: "<?php echo base_url(); ?>admin/deleteTestimonial",
+        method: "POST",
+        data: {
+          testimonialId
+        },
+        success: function(response) {
+          const {
+            success,
+            message
+          } = JSON.parse(response)
+
+          if (!success) {
+            Notiflix.Notify.failure(message)
+            return false
+          }
+          
+          window.location.href = `<?php echo base_url(); ?>admin/testimonials`
+        },
+        error: function(error) {
+          console.log(`error`, error)
+          Notiflix.Notify.failure("Something went wrong. Please try again later!")
+        }
+      })
     }
   </script>
 
