@@ -281,7 +281,7 @@ class Admin extends CI_Controller
 
   public function fetchPGs()
   {
-    $this->checkSession();
+    // $this->checkSession();
 
     $result = $this->common_model->fetchAllData("*", "pgs", array(), array(), "pgId DESC");
     if (!$result || empty($result)) {
